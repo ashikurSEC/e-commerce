@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laptop and Mobile E-Commerce Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;600&display=swap" />
+  <script type="module" defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section id="header">
+    <div class="nav"">
+      <img src="img/logo.png" alt="" />
+      <ul id="navbar">
+        <li><a href="index.html" id="menu"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="all-product.html" id="menu"><i class="fas fa-shopping-bag"></i>Product's</a></li>
+        <li><a href="blog.html" id="menu"><i class="fas fa-blog"></i>Blog</a></li>
+        <li><a href="contact.html" id="menu"><i class="fas fa-contact-card"></i>Contact</a></li>
+        <li><a class="active" href="about.html" id="menu"><i class="fas fa-info-circle"></i>About</a></li>
+        <li><a href="#" id="shopping-cart"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a></li>
+      </ul>
+      <div class="profile">
+        <i class="fas fa-user-circle fa-2x"></i>
+        <div class="dropdown-menu">
+          <a href="/form/signup.html">Sign Up</a>
+          <a href="/form/login.html">Login</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+      <h2>Shopping Cart</h2>
+      <i class="fas fa-times" id="close-sidebar"></i>
+    </div>
+    <div class="sidebar-content">
+      <div id="cart-items"></div>
+      <div id="cart-total">Total Ammout: <span id="total-price">$ 0</span></div>
+    </div>
+  </div>
+
+  <div id="overlay" class="overlay"></div>
+
+  
+  <section id="timeline-section">
+    <div class="timeline-container">
+        <div class="timeline-left">
+            <header class="title">
+                <h2 class="education-title">EDUCATION</h2>
+            </header>
+            <div class="timeline-content">
+                <div class="timeline-box">
+                    <h4>2016</h4>
+                    <h3>Junior School Certificate</h3>
+                    <p>I have passed JSC from Sharatganj T A High School.</p>
+                </div>
+                <div class="timeline-box">
+                    <h4>2019</h4>
+                    <h3>Senior School Certificate</h3>
+                    <p>I have passed SSC from Sharatganj T A High School.</p>
+                </div>
+                <div class="timeline-box">
+                    <h4>2019-2023</h4>
+                    <h3>Diploma Engineering Computer</h3>
+                    <p>I have passed Diploma Engineering from Pabna Polytechnic Institute.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-right">
+            <header class="title">
+                <h2 class="experience-title">EXPERIENCE</h2>
+            </header>
+            <div class="timeline-content">
+                <div class="timeline-box">
+                    <h4>2019 - 2020</h4>
+                    <h3>Programming C Language</h3>
+                    <p>The C programming language, developed in the early 1970s by Dennis Ritchie at Bell Labs.</p>
+                </div>
+                <div class="timeline-box">
+                    <h4>2020-2022</h4>
+                    <h3>Front End Web Developer</h3>
+                    <p>
+                      MDN Web Docs - HTML: Comprehensive guide and tutorials on HTML MDN HTML.
+                      W3Schools
+                    </p>
+                </div>
+                <div class="timeline-box">
+                    <h4>2023-2024</h4>
+                    <h3>Backend Developer</h3>
+                    <p>
+                      PHP and Laravel are powerful tools for web development. PHP is a widely-used server-side scripting language.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <footer class="section-p1">
+    <div class="col" data-aos="fade-up">
+      <h4>Contact</h4>
+      <p><strong>Email:</strong>ashikurrahman7194@gmail.com</p>
+      <p><strong>Adress:</strong>Jogonnathpur, Chatmohar, Pabna</p>
+      <p><strong>Phone:</strong>01700917194</p>
+      <p><strong>Hour's:</strong>Open 10:00 AM - 8:00 PM, Sun - Thu</p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="fab fa-github"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col" data-aos="fade-up">
+      <h4>About</h4>
+      <a href="#">About us</a>
+      <a href="#">Delivary Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact us</a>
+    </div>
+
+    <div class="col" data-aos="fade-up">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+
+    <div class="copyright" data-aos="fade-up">
+      <p>&copy; 2023 <span>Ashikur Rahman Software Engineer</span></p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
