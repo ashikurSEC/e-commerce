@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script type="module" defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <style>
+    .aos-animate.fade-out {
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+  <section data-aos="fade-down">
+    <div class="container">
+      <div class="login-form">
+        <div class="text">LOGIN</div>
+        <form>
+          <div class="field">
+            <div class="fas fa-envelope"></div>
+            <input type="email" placeholder="Enter Your Email" required>
+          </div>
+          <div class="field">
+            <div class="fas fa-lock"></div>
+            <input type="password" placeholder="Enter Your Password" required>
+          </div>
+          <button type="submit">LOGIN</button>
+          <div class="link">
+            Not a member?
+            <a href="/form/signup.html">Signup now</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true, 
+      duration: 1000, 
+      easing: 'ease-out', 
+    });
+  </script>
+</body>
+</html>
