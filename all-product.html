@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laptop and Mobile E-Commerce Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;600&display=swap" />
+    <script type="module" defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section id="header">
+        <div class="nav">
+            <img src="img/logo.png" alt="" />
+            <ul id="navbar">
+                <li>
+                    <a href="index.html" id="menu"><i class="fas fa-home"></i>Home</a>
+                </li>
+                <li>
+                    <a class="active" href="all-product.html" id="menu"><i class="fas fa-shopping-bag"></i>Product's</a>
+                </li>
+                <li>
+                    <a href="blog.html" id="menu"><i class="fas fa-blog"></i>Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html" id="menu"><i class="fas fa-contact-card"></i>Contact</a>
+                </li>
+                <li>
+                    <a href="about.html" id="menu"><i class="fas fa-info-circle"></i>About</a>
+                </li>
+                <li><a href="#" id="shopping-cart"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a></li>
+            </ul>
+            <div class="profile">
+                <i class="fas fa-user-circle fa-2x"></i>
+                <div class="dropdown-menu">
+                    <a href="/form/signup.html">Sign Up</a>
+                    <a href="/form/login.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+          <h2>Shopping Cart</h2>
+          <i class="fas fa-times" id="close-sidebar"></i>
+        </div>
+        <div class="sidebar-content">
+          <div id="cart-items"></div>
+          <div id="cart-total">Total Ammout: <span id="total-price">$ 0</span></div>
+        </div>
+      </div>
+    
+      <div id="overlay" class="overlay"></div>
+
+    <section id="banner-section" data-aos="fade-up">
+        <h2 class="all-product" data-aos="fade-up">All Product's</h2>
+    </section>
+
+    <section class="products-section" id="products">
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/1.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 9 Series</h3>
+            <p class="product-brand">Apple</p>
+            <span>Price: $1700</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/2.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 9 Series</h3>
+            <p class="product-brand">Apple</p>
+            <span>Price: $1000</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/3.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 9 Series</h3>
+            <p class="product-brand">Apple</p>
+            <span>Price: $1500</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/4.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 9 Series</h3>
+            <p class="product-brand">Apple</p>
+            <span>Price: $1500</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/5.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 9 Series</h3>
+            <p class="product-brand">Apple</p>
+            <span>Price: $1600</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/6.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 9 Series</h3>
+            <p class="product-brand">Apple</p>
+            <span>Price: $1100</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/7.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 9 Series</h3>
+            <p class="product-brand">Apple</p>
+            <span>Price: $1200</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/8.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 9 Series</h3>
+            <p class="product-brand">Apple</p>
+            <span>Price: $1300</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/9.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 9 Series</h3>
+            <p class="product-brand">Apple</p>
+            <span>Price: $1500</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/10.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 13 Series</h3>
+            <p class="product-brand">Brand: <strong>Apple</strong></p>
+            <span>Price: $ 200</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/11.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 13 Series</h3>
+            <p class="product-brand">Brand: <strong>Apple</strong></p>
+            <span>Price: $1000</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-aos="fade-up">
+            <img class="apple-product" src="img/laptop/12.jpg" alt="Product 1" />
+            <h3 class="product-name">Apple Tab 13 Series</h3>
+            <p class="product-brand">Brand: <strong>Apple</strong></p>
+            <span>Price: $1800</span>
+            <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </section>
+
+    <section class="paginations" data-aos="fade-up">
+        <a href="/paginations/1.html" class="page-link" data-page="1"><i class="fas fa-1"></i></a>
+        <a href="#" class="page-link" data-page="2"><i class="fas fa-2"></i></a>
+        <a href="#" class="page-link" data-page="3"><i class="fas fa-3"></i></a>
+        <a href="#" class="page-link" data-page="next"><i class="fas fa-arrow-right"></i></a>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col" data-aos="fade-up">
+            <h4>Contact</h4>
+            <p><strong>Email:</strong>ashikurrahman7194@gmail.com</p>
+            <p><strong>Adress:</strong>Jogonnathpur, Chatmohar, Pabna</p>
+            <p><strong>Phone:</strong>01700917194</p>
+            <p><strong>Hour's:</strong>Open 10:00 AM - 8:00 PM, Sun - Thu</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col" data-aos="fade-up">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivary Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col" data-aos="fade-up">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="copyright" data-aos="fade-up">
+            <p>&copy; 2023 <span>Ashikur Rahman Software Engineer</span></p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
