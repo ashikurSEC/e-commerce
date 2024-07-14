@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laptop and Mobile E-Commerce Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;600&display=swap" />
+  <script type="module" defer src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section id="header">
+    <div class="nav"">
+      <img src="img/logo.png" alt="" />
+      <ul id="navbar">
+        <li><a href="index.html" id="menu"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="all-product.html" id="menu"><i class="fas fa-shopping-bag"></i>Product's</a></li>
+        <li><a href="blog.html" id="menu"><i class="fas fa-blog"></i>Blog</a></li>
+        <li><a class="active" href="contact.html" id="menu"><i class="fas fa-contact-card"></i>Contact</a></li>
+        <li><a href="about.html" id="menu"><i class="fas fa-info-circle"></i>About</a></li>
+        <li><a href="#" id="shopping-cart"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a></li>
+      </ul>
+      <div class="profile">
+        <i class="fas fa-user-circle fa-2x"></i>
+        <div class="dropdown-menu">
+          <a href="/form/signup.html">Sign Up</a>
+          <a href="/form/login.html">Login</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="sidebar" class="sidebar">
+    <div class="sidebar-header">
+      <h2>Shopping Cart</h2>
+      <i class="fas fa-times" id="close-sidebar"></i>
+    </div>
+    <div class="sidebar-content">
+      <div id="cart-items"></div>
+      <div id="cart-total">Total Ammout: <span id="total-price">$ 0</span></div>
+    </div>
+  </div>
+
+  <div id="overlay" class="overlay"></div>
+
+
+  <section id="contact-banner">
+    <div class="contact-container" data-aos="fade-up">
+        <h1><span class="letters">C</span><span class="letter">O</span><span class="letter">N</span><span class="letter">T</span><span class="letter">A</span><span class="letter">C</span><span class="letter">T</span> <span class="letter">W</span><span class="letter">I</span><span class="letter">T</span><span class="letter">H</span> <span class="letter">M</span><span class="letter">E</span></h1>
+        <div class="icons">
+            <div class="icon-menu">
+                <i class="fas fa-globe"></i>
+            </div>
+            <div class="icon-menu">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="icon-menu">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="icon-menu">
+                <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="icon-menu">
+                <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="icon-menu">
+                <i class="fas fa-message"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <section id="contact-details" class="section-p1">
+    <div class="details" data-aos="fade-up">
+      <h2>Visit one of agency locations or contact us today</h2>
+      <h3>Head Office</h3>
+      <div>
+        <li>
+          <i class="fas fa-map"></i>
+          <p>3rd Floor, Momenbag Chowrasta, Matuail, Demra, Dhaka-1362</p>
+        </li>
+
+        <li>
+          <i class="fas fa-envelope"></i>
+          <p>ashikurrahman7194@gmail.com</p>
+        </li>
+
+        <li>
+          <i class="fas fa-phone-alt"></i>
+          <p>+8801700-917194</p>
+        </li>
+
+        <li>
+          <i class="fas fa-clock"></i>
+          <p>Monday to Saturday: 9:00am to 8:00pm</p>
+        </li>
+      </div>
+    </div>
+
+    <div class="map" data-aos="fade-up">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5913.65588052486!2d89.34101411999133!3d24.133978172687623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe81db66997931%3A0x2341134e0ff8faae!2sJogonnathpur%20Rd!5e0!3m2!1sen!2sbd!4v1720193242149!5m2!1sen!2sbd"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </section>
+
+  <!--? Form Details -->
+  <section id="form-details" class="section-p1">
+    <form action="" data-aos="fade-up">
+      <h2>Please Send Your Feedback!</h2>
+      <input type="text" placeholder="Enter Your Name" />
+      <input type="email" placeholder="Enter Your Email" />
+      <input type="text" placeholder="Enter Your Subject" />
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message">
+      </textarea>
+      <button class="normal">Submit</button>
+    </form>
+
+    <div class="people" data-aos="fade-down">
+      <div>
+        <img src="img/profile/hasinur-rahman.jpeg" alt="" />
+        <p>
+          <span> Hasinur Rahman </span>
+          Senior Software Engineer ( PHP )
+          <br />
+          Phone:+8801763-251678
+          <br />
+          Email: hasinurrahman3@ gmail.com
+        </p>
+      </div>
+
+      <div>
+          <img src="/img/profile/rahul-amin.jpg" alt="" />
+          <p>
+            <span> Ruhul Amin </span>
+            Senior Networking Engineer
+            <br />
+            Phone:+8801729-945323
+            <br />
+            Email: ruhulamin8106@ gmail.com
+          </p>
+        </div>
+
+        <div>
+          <img src="img/profile/ashikur-rahman.png" alt="" />
+          <p>
+            <span> Ashikur Rahman </span>
+            Junior Frontend Developer
+            <br />
+            Phone:+8801700-917194
+            <br />
+            Email: ashikurrahman7194@gmail.com
+          </p>
+        </div>
+
+        <div>
+            <img src="img/profile/mehedi-hasan.jpg" alt="" />
+            <p>
+              <span> Mehedi Hasan </span>
+              Junior Wordpress Developer
+              <br />
+              Phone:+8801736-238322
+              <br />
+              Email: info.co.mehedi@gmail.com
+            </p>
+          </div>
+
+          <div>
+            <img src="img/profile/sagor-ahmed.jpg" alt="" />
+            <p>
+              <span> Sagor Ahmed </span>
+              Junior Frontend Developer
+              <br />
+              Phone:+8801763-019732
+              <br />
+              Email: mdsagorahamed6600@gmail.com
+            </p>
+          </div>
+
+          <div>
+            <img src="img/profile/tamim.enc" alt="" />
+            <p>
+              <span> Kawsar Jahan Tamim </span>
+              Graphic Designer
+              <br />
+              Phone:+8801518-446702
+              <br />
+              Email: tamim2001@gmail.com
+            </p>
+          </div>
+    </div>
+  </section>
+
+  <footer class="section-p1">
+    <div class="col" data-aos="fade-up">
+      <h4>Contact</h4>
+      <p><strong>Email:</strong>ashikurrahman7194@gmail.com</p>
+      <p><strong>Adress:</strong>Jogonnathpur, Chatmohar, Pabna</p>
+      <p><strong>Phone:</strong>01700917194</p>
+      <p><strong>Hour's:</strong>Open 10:00 AM - 8:00 PM, Sun - Thu</p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="fab fa-github"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col" data-aos="fade-up">
+      <h4>About</h4>
+      <a href="#">About us</a>
+      <a href="#">Delivary Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact us</a>
+    </div>
+
+    <div class="col" data-aos="fade-up">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+
+    <div class="copyright" data-aos="fade-up">
+      <p>&copy; 2023 <span>Ashikur Rahman Software Engineer</span></p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
